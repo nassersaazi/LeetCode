@@ -1,3 +1,6 @@
+In Python, a while loop may have an optional else block. Here, the else part is executed after the condition of the loop evaluates to False . Note: The else block will not execute if the while loop is terminated by a break statement.
+
+
 Python functions
 
 The divmod() method in python takes two numbers and returns a pair of numbers consisting of their quotient and remainder
@@ -6,10 +9,14 @@ set() method is used to convert any of the iterable(eg list,dict,tuple) to seque
 
 str() function returns the string version of the object
 
-List Comprehensions in python syntax
+List Comprehensions in python syntax -> https://towardsdatascience.com/a-guide-to-python-comprehensions-4d16af68c97e
   newList = [ expression(element) for element in oldList if condition ]
 
 Pros of list comprehension
 - More time-efficient and space-efficient than loops
 - Require fewer lines of code
 - Transform iterative statement into formula
+
+
+Python tuples explained -> https://towardsdatascience.com/python-tuple-the-whole-truth-and-only-the-truth-hello-tuple-12a7ab9dbd0d
+- a tuple is an immutable collection of references to objects, not an immutable collection of objects
